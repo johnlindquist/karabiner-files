@@ -1,0 +1,595 @@
+<?xml version="1.0"?>
+<root>
+    <modifierdef>ERGODOX</modifierdef>
+    <item>
+        <name>PC Application Key to Extra1 Modifier</name>
+        <identifier>private.pc_application_to_extra1</identifier>
+        <autogen>--KeyToKey-- KeyCode::PC_APPLICATION, KeyCode::VK_MODIFIER_EXTRA1</autogen>
+    </item>
+    <item>
+        <name>Global VIM</name>
+        <appendix>Hold CappsLock to enableVIM keys</appendix>
+
+        <identifier>John VIM</identifier>
+
+        <block>
+            <modifier_only>ModifierFlag::EXTRA1</modifier_only>
+            <autogen>--KeyToKey-- KeyCode::D, KeyCode::SHIFT_L</autogen>
+        </block>
+        <block>
+            <modifier_only>ModifierFlag::EXTRA1</modifier_only>
+            <autogen>--KeyToKey-- KeyCode::F, KeyCode::OPTION_L</autogen>
+        </block>
+        <block>
+            <modifier_only>ModifierFlag::EXTRA1</modifier_only>
+            <autogen>--KeyToKey-- KeyCode::SPACE, KeyCode::CONTROL_R</autogen>
+        </block>
+        <block>
+            <modifier_only>ModifierFlag::EXTRA1</modifier_only>
+            <autogen>--KeyToKey-- KeyCode::S, KeyCode::COMMAND_L</autogen>
+        </block>
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::SLASH,
+            ModifierFlag::EXTRA1,
+
+            KeyCode::SLASH, ModifierFlag::OPTION_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::U,
+            ModifierFlag::EXTRA1,
+
+            KeyCode::PAGEDOWN
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::I,
+            ModifierFlag::EXTRA1,
+
+            KeyCode::PAGEUP
+        </autogen>
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::V,ModifierFlag::EXTRA1,
+            KeyCode::SPACE, ModifierFlag::CONTROL_R
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::M,
+            ModifierFlag::EXTRA1,
+
+            KeyCode::Z, ModifierFlag::COMMAND_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::COMMA,
+            ModifierFlag::EXTRA1,
+
+            KeyCode::Z, ModifierFlag::SHIFT_L|ModifierFlag::COMMAND_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::E,
+            ModifierFlag::EXTRA1,
+
+            KeyCode::F, ModifierFlag::COMMAND_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::J,
+            ModifierFlag::EXTRA1,
+
+            KeyCode::CURSOR_DOWN
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::K,
+            ModifierFlag::EXTRA1,
+
+            KeyCode::CURSOR_UP
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::H,
+            ModifierFlag::EXTRA1,
+
+            KeyCode::CURSOR_LEFT
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::L,
+            ModifierFlag::EXTRA1,
+
+            KeyCode::CURSOR_RIGHT
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::N,
+            ModifierFlag::EXTRA1,
+
+            KeyCode::DELETE
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::DOT,
+            ModifierFlag::EXTRA1,
+
+            KeyCode::FORWARD_DELETE
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::Y, ModifierFlag::EXTRA1,
+            KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::O, ModifierFlag::EXTRA1,
+            KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::H, ModifierFlag::CONTROL_R,
+            KeyCode::CURSOR_LEFT, ModifierFlag::CONTROL_R
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::G, ModifierFlag::EXTRA1,
+            KeyCode::ESCAPE
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::A, ModifierFlag::EXTRA1,
+            KeyCode::SPACE, ModifierFlag::OPTION_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::S, ModifierFlag::EXTRA1,
+            KeyCode::A, ModifierFlag::COMMAND_L|ModifierFlag::OPTION_L|ModifierFlag::SHIFT_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::SEMICOLON, ModifierFlag::EXTRA1,
+            KeyCode::S, ModifierFlag::COMMAND_L
+        </autogen>
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::QUOTE, ModifierFlag::EXTRA1,
+            KeyCode::SPACE, ModifierFlag::CONTROL_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::RETURN, ModifierFlag::EXTRA1|ModifierFlag::OPTION_L,
+            KeyCode::F2
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::RETURN, ModifierFlag::EXTRA1|ModifierFlag::SHIFT_L,
+            KeyCode::F2, ModifierFlag::SHIFT_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::RETURN, ModifierFlag::EXTRA1,
+            KeyCode::RETURN, ModifierFlag::OPTION_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::KEYPAD_3,
+            KeyCode::RETURN, ModifierFlag::OPTION_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::RawValue::0x5a,
+            KeyCode::Z, ModifierFlag::COMMAND_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::JIS_KANA,
+            KeyCode::C, ModifierFlag::COMMAND_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::JIS_EISUU,
+            KeyCode::V, ModifierFlag::COMMAND_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::T, ModifierFlag::EXTRA1,
+            KeyCode::T, ModifierFlag::COMMAND_L|ModifierFlag::OPTION_L|ModifierFlag::SHIFT_L
+        </autogen>
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::R, ModifierFlag::EXTRA1,
+            KeyCode::R, ModifierFlag::COMMAND_L|ModifierFlag::OPTION_L|ModifierFlag::SHIFT_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::BRACKET_LEFT, ModifierFlag::EXTRA1,
+            KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L|ModifierFlag::OPTION_L|ModifierFlag::SHIFT_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::BRACKET_RIGHT, ModifierFlag::EXTRA1,
+            KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L|ModifierFlag::OPTION_L|ModifierFlag::SHIFT_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::KEYPAD_9,
+            KeyCode::KEY_9, ModifierFlag::SHIFT_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::KEYPAD_0,
+            KeyCode::KEY_0, ModifierFlag::SHIFT_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::KEYPAD_7,
+            KeyCode::BRACKET_LEFT, ModifierFlag::SHIFT_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::KEYPAD_8,
+            KeyCode::BRACKET_RIGHT, ModifierFlag::SHIFT_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::KEYPAD_1,
+            KeyCode::BRACKET_LEFT
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::KEYPAD_2,
+            KeyCode::BRACKET_RIGHT
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::KEYPAD_6,
+            KeyCode::EQUAL
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::F18,
+            KeyCode::T, ModifierFlag::CONTROL_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::F17,
+            KeyCode::F1, ModifierFlag::OPTION_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::RawValue::0x4c,
+            KeyCode::O, ModifierFlag::COMMAND_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::F16,
+            KeyCode::S, ModifierFlag::COMMAND_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::JIS_YEN,
+            KeyCode::B, ModifierFlag::COMMAND_L
+        </autogen>
+
+
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::A, ModifierFlag::ERGODOX,
+            KeyCode::BRACKET_LEFT
+        </autogen>
+
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::S, ModifierFlag::ERGODOX,
+            KeyCode::BRACKET_RIGHT
+        </autogen>
+
+
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::J, ModifierFlag::ERGODOX,
+            KeyCode::BRACKET_LEFT, ModifierFlag::SHIFT_L
+        </autogen>
+
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::K, ModifierFlag::ERGODOX,
+            KeyCode::BRACKET_RIGHT, ModifierFlag::SHIFT_L
+        </autogen>
+
+
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::L, ModifierFlag::ERGODOX,
+            KeyCode::KEY_9, ModifierFlag::SHIFT_L
+        </autogen>
+
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::SEMICOLON, ModifierFlag::ERGODOX,
+            KeyCode::KEY_0, ModifierFlag::SHIFT_L
+        </autogen>
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::TAB, ModifierFlag::ERGODOX,
+            KeyCode::TAB, ModifierFlag::COMMAND_L
+        </autogen>
+
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::Q, ModifierFlag::ERGODOX,
+            KeyCode::KEY_1
+        </autogen>
+
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::W, ModifierFlag::ERGODOX,
+            KeyCode::KEY_2
+        </autogen>
+
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::E, ModifierFlag::ERGODOX,
+            KeyCode::KEY_3
+        </autogen>
+
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::R, ModifierFlag::ERGODOX,
+            KeyCode::KEY_4
+        </autogen>
+
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::T, ModifierFlag::ERGODOX,
+            KeyCode::KEY_5
+        </autogen>
+
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::Y, ModifierFlag::ERGODOX,
+            KeyCode::KEY_6
+        </autogen>
+
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::U, ModifierFlag::ERGODOX,
+            KeyCode::KEY_7
+        </autogen>
+
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::I, ModifierFlag::ERGODOX,
+            KeyCode::KEY_8
+        </autogen>
+
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::O, ModifierFlag::ERGODOX,
+            KeyCode::KEY_9
+        </autogen>
+
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::P, ModifierFlag::ERGODOX,
+            KeyCode::KEY_0
+        </autogen>
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::G, ModifierFlag::ERGODOX,
+            KeyCode::EQUAL
+        </autogen>
+
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::F, ModifierFlag::ERGODOX,
+            KeyCode::EQUAL
+        </autogen>
+
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::D, ModifierFlag::ERGODOX,
+            KeyCode::SPACE
+        </autogen>
+
+    </item>
+
+    <item>
+        <identifier>notsave.thumbsense.john</identifier>
+
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::A,ModifierFlag::NONE,
+            KeyCode::BRACKET_LEFT
+        </autogen>
+
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::S,ModifierFlag::NONE,
+            KeyCode::BRACKET_RIGHT
+        </autogen>
+
+
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::J,ModifierFlag::NONE,
+            KeyCode::BRACKET_LEFT, ModifierFlag::SHIFT_L
+        </autogen>
+
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::K,ModifierFlag::NONE,
+            KeyCode::BRACKET_RIGHT, ModifierFlag::SHIFT_L
+        </autogen>
+
+
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::L,ModifierFlag::NONE,
+            KeyCode::KEY_9, ModifierFlag::SHIFT_L
+        </autogen>
+
+
+        <autogen>
+            --KeyToKey--
+            KeyCode::SEMICOLON,ModifierFlag::NONE,
+            KeyCode::KEY_0, ModifierFlag::SHIFT_L
+        </autogen>
+
+        <autogen>
+            __KeyToKey__ KeyCode::SPACE,
+            PointingButton::LEFT
+        </autogen>
+
+        <autogen>
+            __KeyToKey__ KeyCode::COMMAND_L,
+            PointingButton::MIDDLE
+        </autogen>
+        <autogen>__KeyToKey__ KeyCode::X, ModifierFlag::NONE, KeyCode::X, ModifierFlag::COMMAND_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::C, ModifierFlag::NONE, KeyCode::C, ModifierFlag::COMMAND_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::V, ModifierFlag::NONE, KeyCode::V, ModifierFlag::COMMAND_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::U, ModifierFlag::NONE, KeyCode::L, ModifierFlag::COMMAND_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::N, ModifierFlag::NONE, KeyCode::K, ModifierFlag::COMMAND_L</autogen>
+
+        <autogen>__KeyToKey__ KeyCode::CURSOR_RIGHT, ModifierFlag::NONE, KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L, ModifierFlag::CONTROL_L,ModifierFlag::OPTION_L </autogen>
+
+        <autogen>__KeyToKey__ KeyCode::CURSOR_LEFT, ModifierFlag::NONE, KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L, ModifierFlag::CONTROL_L,ModifierFlag::OPTION_L </autogen>
+
+
+        <autogen>__KeyToKey__ KeyCode::CURSOR_DOWN, ModifierFlag::NONE, KeyCode::KEY_0, ModifierFlag::COMMAND_L, ModifierFlag::OPTION_L </autogen>
+
+        <autogen>__KeyToKey__ KeyCode::CURSOR_UP, ModifierFlag::NONE, KeyCode::MINUS, ModifierFlag::COMMAND_L, ModifierFlag::OPTION_L </autogen>
+
+          <autogen>
+            --KeyToKey--
+            KeyCode::J,
+            ModifierFlag::EXTRA1,
+
+            KeyCode::CURSOR_DOWN
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::K,
+            ModifierFlag::EXTRA1,
+
+            KeyCode::CURSOR_UP
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::H,
+            ModifierFlag::EXTRA1,
+
+            KeyCode::CURSOR_LEFT
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::L,
+            ModifierFlag::EXTRA1,
+
+            KeyCode::CURSOR_RIGHT
+        </autogen>
+        <autogen>
+            __KeyToKey__
+            KeyCode::QUOTE,
+            ModifierFlag::NONE,
+            KeyCode::F2,
+            ModifierFlag::COMMAND_L,
+            ModifierFlag::SHIFT_L,
+            ModifierFlag::OPTION_L,
+            ModifierFlag::CONTROL_L,
+        </autogen>
+
+
+        <autogen>--KeyToKey-- KeyCode::PC_APPLICATION, KeyCode::VK_MODIFIER_EXTRA1</autogen>
+    </item>
+
+    <item>
+      <name>John's Tab Layer</name>
+      <appendix></appendix>
+      
+      <identifier>remap.john_space_layer</identifier>
+      <autogen>
+        __KeyOverlaidModifier__
+        KeyCode::TAB,
+
+        KeyCode::VK_MODIFIER_EXTRA2, ModifierFlag::SPACE_TO_COMMAND,
+
+        KeyCode::TAB,
+      </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::U,ModifierFlag::SPACE_TO_COMMAND,
+            KeyCode::KEY_9, ModifierFlag::SHIFT_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::I,ModifierFlag::SPACE_TO_COMMAND,
+            KeyCode::KEY_0, ModifierFlag::SHIFT_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::J,ModifierFlag::SPACE_TO_COMMAND,
+            KeyCode::BRACKET_LEFT, ModifierFlag::SHIFT_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::K,ModifierFlag::SPACE_TO_COMMAND,
+            KeyCode::BRACKET_RIGHT, ModifierFlag::SHIFT_L
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::L,ModifierFlag::SPACE_TO_COMMAND,
+            KeyCode::BRACKET_LEFT
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::SEMICOLON,ModifierFlag::SPACE_TO_COMMAND,
+            KeyCode::BRACKET_RIGHT
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::O,ModifierFlag::SPACE_TO_COMMAND,
+            KeyCode::EQUAL
+        </autogen>
+        <autogen>
+            --KeyToKey--
+            KeyCode::P,ModifierFlag::SPACE_TO_COMMAND,
+            KeyCode::DOT, ModifierFlag::SHIFT_L
+        </autogen>
+      <block>
+        <modifier_only>ModifierFlag::SPACE_TO_COMMAND</modifier_only>
+        <autogen>__BlockUntilKeyUp__ KeyCode::TAB</autogen>
+      </block>
+    </item>
+</root>
